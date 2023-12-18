@@ -23,7 +23,8 @@ public class MathOperatorServiceTest {
         double operator1 = 4;
         double operator2 = 9;
         String operation = "+";
-        double expectedResult = 13.0; // Replace this with the expected result of the operation
+        double expectedResult = 13.0;
+
 
         when(mathOperatorService.doMath(operator1, operator2, operation)).thenReturn(expectedResult);
 
