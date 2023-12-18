@@ -20,10 +20,10 @@ public class MathOperatorServiceTest {
 
     @Test
     public void should_create_math_operation_success() throws InvalidOperationException {
-        double operator1 = 4;
+        double operator1 = 20;
         double operator2 = 9;
         String operation = "+";
-        double expectedResult = 13.0;
+        double expectedResult = 29.0;
 
 
         when(mathOperatorService.doMath(operator1, operator2, operation)).thenReturn(expectedResult);
