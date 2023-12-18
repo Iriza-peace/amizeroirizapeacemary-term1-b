@@ -1,4 +1,4 @@
-package rca.devopsexam.service;
+package rca.examtermone.service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

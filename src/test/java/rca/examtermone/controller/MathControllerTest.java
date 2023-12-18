@@ -1,4 +1,4 @@
-package rca.devopsexam.controller;
+package rca.examtermone.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

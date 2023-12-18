@@ -1,4 +1,4 @@
-package rca.devopsexam.e2e;
+package rca.examtermone.e2e;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
