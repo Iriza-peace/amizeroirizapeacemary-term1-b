@@ -1,12 +1,10 @@
 package rca.examtermone.service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import rca.devopsexam.v1.dtos.DoMathRequestDto;
-import rca.devopsexam.v1.exceptions.InvalidOperationException;
-import rca.devopsexam.v1.serviceImpls.MathOperatorImpl;
+import rca.termone.v1.exceptions.InvalidOperationException;
+import rca.termone.v1.serviceImpls.MathOperatorImpl;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import static org.mockito.ArgumentMatchers.any;

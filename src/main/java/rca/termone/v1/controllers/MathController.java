@@ -1,11 +1,11 @@
-package rca.devopsexam.v1.controllers;
+package rca.termone.v1.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import rca.devopsexam.v1.dtos.DoMathRequestDto;
-import rca.devopsexam.v1.exceptions.InvalidOperationException;
-import rca.devopsexam.v1.payload.ApiResponse;
-import rca.devopsexam.v1.serviceImpls.MathOperatorImpl;
+import rca.termone.v1.dtos.DoMathRequestDto;
+import rca.termone.v1.exceptions.InvalidOperationException;
+import rca.termone.v1.payload.ApiResponse;
+import rca.termone.v1.serviceImpls.MathOperatorImpl;
 
 @RestController
 @RequestMapping("/api/v1/do_math")

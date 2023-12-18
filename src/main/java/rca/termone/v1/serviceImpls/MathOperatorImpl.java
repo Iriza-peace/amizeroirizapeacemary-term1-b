@@ -1,8 +1,8 @@
-package rca.devopsexam.v1.serviceImpls;
+package rca.termone.v1.serviceImpls;
 
 import org.springframework.stereotype.Service;
-import rca.devopsexam.v1.exceptions.InvalidOperationException;
-import rca.devopsexam.v1.services.IMathOperator;
+import rca.termone.v1.exceptions.InvalidOperationException;
+import rca.termone.v1.services.IMathOperator;
 
 @Service
 public class MathOperatorImpl implements IMathOperator {

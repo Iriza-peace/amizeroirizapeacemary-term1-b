@@ -1,6 +1,6 @@
-package rca.devopsexam.v1.services;
+package rca.termone.v1.services;
 
-import rca.devopsexam.v1.exceptions.InvalidOperationException;
+import rca.termone.v1.exceptions.InvalidOperationException;
 
 public interface IMathOperator {
 

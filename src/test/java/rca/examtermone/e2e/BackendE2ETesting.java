@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import rca.devopsexam.v1.dtos.DoMathRequestDto;
-import rca.devopsexam.v1.payload.ApiResponse;
+import rca.termone.v1.dtos.DoMathRequestDto;
+import rca.termone.v1.payload.ApiResponse;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
