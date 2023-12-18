@@ -1,5 +1,5 @@
 My backend solution:
-I worked on master branch I created which is one of the efficient way to avoid conflicts
+I worked on master branch
 Navigation & structure of the project:
 > In the src/java/rca.termoneexam/ contains my tests:
 > End-to-end testing with different operations and scenarios
@@ -7,7 +7,7 @@ Navigation & structure of the project:
 > Integration testing to see if my application is working together
 
 Tools used for the solution:
-=Springboot
-=junit
-=mockito
+>Springboot
+>junit
+>mockito
 
