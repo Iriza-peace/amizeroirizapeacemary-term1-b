@@ -22,7 +22,7 @@ public class MathOperatorImpl implements IMathOperator {
                 return operand1 + operand2;
             case "-":
                 return operand1 - operand2;
-
+            default:
                 throw new RuntimeException("Unknown Operation");
         }
     }
